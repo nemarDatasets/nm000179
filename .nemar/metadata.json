@@ -1,0 +1,170 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Anahit Babayan": {},
+    "Miray Erbey": {},
+    "Deniz Kumral": {},
+    "Janis D. Reinelt": {},
+    "Andrea M.F. Reiter": {},
+    "Josefin Röbbig": {},
+    "H. Lina Schaare": {},
+    "Marie Uhlig": {},
+    "Alfred Anwander": {
+      "orcid": "0000-0002-4861-4808"
+    },
+    "Pierre-Louis Bazin": {},
+    "Annette Horstmann": {
+      "orcid": "0000-0001-6184-8484"
+    },
+    "Leonie Lampe": {},
+    "Vadim V. Nikulin": {},
+    "Hadas Okon-Singer": {},
+    "Sven Preusser": {},
+    "Andre Pampel": {},
+    "Christiane S. Rohr": {},
+    "Julia Sacher": {},
+    "Angelika Thone-Otto": {},
+    "Sabrina Trapp": {},
+    "Till Nierhaus": {},
+    "Denise Altmann": {},
+    "Katrin Arelin": {},
+    "Maria Blochl": {},
+    "Edith Bongartz": {},
+    "Patric Breig": {},
+    "Elena Cesnaite": {},
+    "Sufang Chen": {},
+    "Roberto Cozatl": {},
+    "Saskia Czerwonatis": {},
+    "Gabriele Dambrauskaite": {},
+    "Maria Dreyer": {},
+    "Jessica Enders": {},
+    "Melina Engelhardt": {},
+    "Marie Michele Fischer": {},
+    "Norman Forschack": {
+      "orcid": "0000-0003-2525-7059"
+    },
+    "Johannes Golchert": {},
+    "Laura Golz": {},
+    "C. Alexandrina Guran": {},
+    "Susanna Hedrich": {},
+    "Nicole Hentschel": {},
+    "Daria I. Hoffmann": {},
+    "Julia M. Huntenburg": {},
+    "Rebecca Jost": {},
+    "Anna Kosatschek": {},
+    "Stella Kunzendorf": {},
+    "Hannah Lammers": {},
+    "Mark E. Lauckner": {},
+    "Keyvan Mahjoory": {},
+    "Natacha Mendes": {},
+    "Ramona Menger": {},
+    "Enzo Morino": {},
+    "Karina Nathe": {},
+    "Jennifer Neubauer": {},
+    "Handan Noyan": {},
+    "Sabine Oligschlager": {},
+    "Patricia Panczyszyn-Trzewik": {},
+    "Dorothee Poehlchen": {},
+    "Nadine Putzke": {},
+    "Sabrina Roski": {},
+    "Marie-Catherine Schaller": {},
+    "Anja Schieferbein": {},
+    "Benito Schlaak": {},
+    "Hanna Maria Schmidt": {},
+    "Robert Schmidt": {},
+    "Anne Schrimpf": {},
+    "Sylvia Stasch": {},
+    "Maria Voss": {},
+    "Anett Wiedemann": {},
+    "Daniel S. Margulies": {},
+    "Michael Gaebler": {},
+    "Arno Villringer": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/sdata.2018.308",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000179",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000179",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Max Planck Society"
+    },
+    {
+      "funder_name": "European Union (ERC-2016-StG-Self-Control-677804)"
+    },
+    {
+      "funder_name": "German Research Foundation",
+      "award_number": "CRC 1052"
+    },
+    {
+      "funder_name": "European Union",
+      "award_number": "ERC-2016-StG-677804"
+    }
+  ],
+  "title": "LEMON: MPI Leipzig Mind-Brain-Body EEG (Resting State)",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "136.3 GB (431 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "The LEMON dataset comprises resting-state EEG recordings from 215 healthy participants (153 young adults aged 20-35 years and 74 older adults aged 59-77 years) collected as part of the Leipzig Study for Mind-Body-Emotion Interactions. Participants performed alternating eyes-open and eyes-closed blocks over approximately 16 minutes of continuous recording using a 62-channel EEG system sampled at 2500 Hz. This dataset provides a valuable resource for investigating age-related differences in resting-state brain activity and electrophysiological markers of healthy aging.",
+  "methods_description": "EEG was recorded using a BrainVision actiCHamp amplifier with 62 electrodes positioned according to the standard 10-20 extended montage (ActiCAP). Online reference was FCz with ground at AFz. Sampling rate was 2500 Hz with impedance maintained below 5 kOhm using active electrodes. Participants performed resting-state recordings with alternating eyes-open (fixating on an off LED) and eyes-closed blocks of approximately 60 seconds each, with event markers S200 and S210 indicating eyes-open and eyes-closed onsets respectively.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "eyes-open eyes-closed"
+    },
+    {
+      "term": "brain activity"
+    },
+    {
+      "term": "healthy adults"
+    }
+  ],
+  "source_hash": "ff7afc09d5caaf69d75a6805246bf3c528e5e82cea98778987ce002ea1b67233"
+}
