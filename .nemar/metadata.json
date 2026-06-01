@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "LEMON: MPI Leipzig Mind-Brain-Body EEG (Resting State)",
+  "description": "The LEMON dataset comprises resting-state EEG recordings from 215 healthy participants (153 young adults aged 20-35 years and 74 older adults aged 59-77 years) from the Leipzig Study for Mind-Body-Emotion Interactions. Participants performed alternating eyes-open and eyes-closed blocks (~60 seconds each) over approximately 16 minutes of continuous recording using a 62-channel BrainVision actiCHamp system sampled at 2500 Hz. This dataset provides a valuable resource for investigating age-related differences in resting-state brain oscillations and functional connectivity.",
+  "methods_description": "EEG was recorded using a BrainVision actiCHamp amplifier with 62 electrodes placed according to the standard 10-20 extended montage (ActiCAP). Online reference was FCz with ground at AFz. Sampling rate was 2500 Hz with impedance maintained below 5 kOhm using active electrodes. Resting-state recordings alternated between eyes-open (fixating on an off LED) and eyes-closed blocks of approximately 60 seconds each, with event markers S200 and S210 indicating eyes-open and eyes-closed onsets respectively.",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
   "authors": {
     "Anahit Babayan": {},
     "Miray Erbey": {},
@@ -81,12 +86,27 @@
     "Michael Gaebler": {},
     "Arno Villringer": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.1038/sdata.2018.308",
-      "identifier_type": "DOI",
-      "relation_type": "References"
+      "term": "EEG"
     },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "eyes-open eyes-closed"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "brain oscillations"
+    },
+    {
+      "term": "healthy volunteers"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/nm000179",
       "identifier_type": "URL",
@@ -106,6 +126,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.308",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -124,47 +149,23 @@
       "award_number": "ERC-2016-StG-677804"
     }
   ],
-  "title": "LEMON: MPI Leipzig Mind-Brain-Body EEG (Resting State)",
-  "license": "CC BY 4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "136.3 GB (431 files)"
   ],
   "formats": [
     ".eeg",
     ".json",
+    ".md",
     ".py",
     ".tsv",
     ".vhdr",
     ".vmrk",
     ".yml"
   ],
-  "description": "The LEMON dataset comprises resting-state EEG recordings from 215 healthy participants (153 young adults aged 20-35 years and 74 older adults aged 59-77 years) collected as part of the Leipzig Study for Mind-Body-Emotion Interactions. Participants performed alternating eyes-open and eyes-closed blocks over approximately 16 minutes of continuous recording using a 62-channel EEG system sampled at 2500 Hz. This dataset provides a valuable resource for investigating age-related differences in resting-state brain activity and electrophysiological markers of healthy aging.",
-  "methods_description": "EEG was recorded using a BrainVision actiCHamp amplifier with 62 electrodes positioned according to the standard 10-20 extended montage (ActiCAP). Online reference was FCz with ground at AFz. Sampling rate was 2500 Hz with impedance maintained below 5 kOhm using active electrodes. Participants performed resting-state recordings with alternating eyes-open (fixating on an off LED) and eyes-closed blocks of approximately 60 seconds each, with event markers S200 and S210 indicating eyes-open and eyes-closed onsets respectively.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "aging"
-    },
-    {
-      "term": "eyes-open eyes-closed"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
-      "term": "healthy adults"
-    }
-  ],
-  "source_hash": "ff7afc09d5caaf69d75a6805246bf3c528e5e82cea98778987ce002ea1b67233"
+  "source_hash": "ee2bb8a0ce033fb70baea5dcac2aaec22fd090d4f937c0e59347c6652aa9d61f"
 }
