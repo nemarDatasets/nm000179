@@ -1,0 +1,55 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000179-blue)](https://doi.org/10.82901/nemar.nm000179)
+
+LEMON: MPI Leipzig Mind-Brain-Body EEG Dataset (Resting State)
+===============================================================
+
+Overview
+--------
+Resting-state EEG from 215 healthy participants (young and old adults) from
+the Leipzig Study for Mind-Body-Emotion Interactions (LEMON). Subjects
+alternated between eyes-closed (EC) and eyes-open (EO) blocks of ~60 seconds
+each for approximately 16 minutes total.
+
+Demographics: Young adults (20-35 years, N=153) and older adults (59-77 years,
+N=74). All right-handed, normal or corrected-to-normal vision, no history of
+neurological or psychiatric disorders.
+
+Recording Setup
+---------------
+- Amplifier: BrainVision actiCHamp (Brain Products GmbH)
+- Channels: 62 EEG (standard 10-20 extended, ActiCAP)
+- Online reference: FCz
+- Ground: AFz (inferred from BrainVision convention)
+- Sampling rate: 2500 Hz
+- Impedance: < 5 kOhm (active electrodes)
+- Recording duration: ~16 min per subject
+
+Task
+----
+Resting state with alternating eyes-open (EO) and eyes-closed (EC) blocks.
+- Eyes-open: fixate on LED (off state), eyes open
+- Eyes-closed: close eyes, fixate on LED (off state)
+- Block duration: ~60 seconds each
+- Event markers: S200 = eyes open onset, S210 = eyes closed onset
+
+Known Issues
+------------
+- Subjects sub-010020, sub-010044, sub-010193, sub-010219 have incorrect .vhdr
+  file paths that were fixed during conversion
+- Subject sub-010203 has no marker file (.vmrk)
+- 5 subjects (sub-010235, sub-010237, sub-010259, sub-010281, sub-010293)
+  are absent from the dataset (not recorded)
+
+Reference
+---------
+Babayan, A. et al. (2019). A mind-brain-body dataset of MRI, EEG, cognition,
+emotion, and peripheral physiology in young and old adults. Scientific Data, 6,
+180308. https://doi.org/10.1038/sdata.2018.308
+
+
+References
+----------
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8
+
